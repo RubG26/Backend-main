@@ -1,5 +1,8 @@
 package facade
 
+//representa la configuración de una tarjeta. En la clase se
+//incluye el prefijo, la compañía (AMEX, Mastercard, VISA) y el tipo de tarjeta
+//(crédito, debito)
 class Card {
     private var prefix: String? = null
     private var company: String? = null

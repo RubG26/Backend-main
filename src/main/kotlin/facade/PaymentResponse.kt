@@ -1,5 +1,7 @@
 package facade
 
+//Corresponde a la respuesta de la operación pay. La respuesta incluye número de
+//confirmación de pago, nuevo status y saldo.
 class PaymentResponse {
     private var paymentConfirmNumber: String? = null
     private var newBalance = 0.0

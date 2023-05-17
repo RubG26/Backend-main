@@ -1,5 +1,7 @@
 package facade
 
+//simula una base de datos donde se guardan los datos de los
+//clientes y las tarjetas.
 
 class OnMemoryDataBase {
     private val CUSTOMER_MAP = HashMap<Long, Customer>()

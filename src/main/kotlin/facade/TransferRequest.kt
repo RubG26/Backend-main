@@ -1,5 +1,7 @@
 package facade
 
+//Esta clase representa el request para el sistema bancario, es la que recibe los
+//datos de la tarjeta y el monto del cargo.
 class TransferRequest {
 
     private var ammount = 0.0

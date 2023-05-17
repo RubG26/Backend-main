@@ -1,5 +1,8 @@
 package facade
 
+//Esta clase corresponde al request de la operación pay de la fachada, la cual tiene
+//los datos mínimos para aplicar un pago, los datos requeridos son el ID del cliente
+//y los datos de la tarjeta.
 class PaymentRequest {
     private var customerId: Long? = null
     private var ammount = 0.0

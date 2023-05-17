@@ -1,6 +1,6 @@
 package facade
 
-
+//Esta clase representa al módulo de envío de correos electrónicos.
 class EmailSystem {
     fun sendEmail(values: Map<String?, String?>) {
         var templete = """

@@ -1,12 +1,15 @@
 package facade
 
+//representa la fachada concreta. En ésta se
+//implementa el método pay, la cual es una operación de alto nivel, en ella se
+//realizan todas las acciones para aplicar el pago en todos los subsistemas.
+
 
 class OnlinePaymentFacadeImpl{
     private val crmSystem = CRMSystem()
     private val billingSyste = BillingSystem()
     private val bankSyste = BankSystem()
     private val emailSenderSystem = EmailSystem()
-
 
     @Throws(GeneralPaymentError::class)
     fun pay(request: PaymentRequest): PaymentResponse {

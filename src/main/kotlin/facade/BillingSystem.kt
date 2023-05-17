@@ -1,5 +1,6 @@
 package facade
 
+//Representa al sistema de facturacion
 class BillingSystem {
     fun queryCustomerBalance(customerId: Long): Double {
         val customer: Customer? = OnMemoryDataBase().findCustomerById(customerId)

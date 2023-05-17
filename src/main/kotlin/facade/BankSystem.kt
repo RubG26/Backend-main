@@ -2,6 +2,9 @@ package facade
 
 import java.util.*
 
+//Clase que representa el sistema bancario, éste ofrece un método llamado transfer
+//que recibe los datos para realizar el cargo a la tarjeta.
+
 
 class BankSystem {
 
